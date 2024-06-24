@@ -14,14 +14,14 @@
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex ms-auto rounded">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Blended to Perfection</span>
-                                <span class="section-heading-lower">Coffees & Teas</span>
+                                <span class="section-heading-upper">A Magia da Colheita</span>
+                                <span class="section-heading-lower">Um Dia na Fazenda Rotta</span>
                             </h2>
                         </div>
                     </div>
-                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-01.jpg" alt="..." />
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/colheita.jpg" alt="..." />
                     <div class="product-item-description d-flex me-auto">
-                        <div class="bg-faded p-5 rounded"><p class="mb-0">We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p></div>
+                        <div class="bg-faded p-5 rounded"><p class="mb-0">Na Fazenda Rotta, a colheita é um momento mágico que celebra o trabalho árduo e a dedicação de toda a nossa equipe. Cada grão colhido representa não apenas um produto de qualidade, mas também um pedaço da nossa história e do nosso compromisso com a sustentabilidade. Acompanhe-nos em um dia típico de colheita e descubra os processos e as emoções que envolvem essa atividade essencial para a nossa fazenda.</p></div>
                     </div>
                 </div>
             </div>
@@ -32,14 +32,14 @@
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex me-auto rounded">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Delicious Treats, Good Eats</span>
-                                <span class="section-heading-lower">Bakery & Kitchen</span>
+                                <span class="section-heading-upper">Sustentabilidade na Prática</span>
+                                <span class="section-heading-lower">Nossas Iniciativas Verdes</span>
                             </h2>
                         </div>
                     </div>
-                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-02.jpg" alt="..." />
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/sustentabilidade.jpg" alt="..." />
                     <div class="product-item-description d-flex ms-auto">
-                        <div class="bg-faded p-5 rounded"><p class="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p></div>
+                        <div class="bg-faded p-5 rounded"><p class="mb-0">Na Fazenda Rotta, acreditamos que a sustentabilidade é o caminho para um futuro melhor. Implementamos diversas iniciativas verdes que vão desde o uso de energias renováveis até práticas agrícolas que preservam o solo e a biodiversidade. Neste post, compartilhamos como nossas ações sustentáveis não só protegem o meio ambiente, mas também garantem a produção de alimentos saudáveis e de alta qualidade.</p></div>
                     </div>
                 </div>
             </div>
@@ -50,14 +50,14 @@
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex ms-auto rounded">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">From Around the World</span>
-                                <span class="section-heading-lower">Bulk Speciality Blends</span>
+                                <span class="section-heading-upper">Tecnologia e Tradição</span>
+                                <span class="section-heading-lower">A Evolução da Fazenda Rotta</span>
                             </h2>
                         </div>
                     </div>
-                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-03.jpg" alt="..." />
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/tech.jpg" alt="..." />
                     <div class="product-item-description d-flex me-auto">
-                        <div class="bg-faded p-5 rounded"><p class="mb-0">Travelling the world for the very best quality coffee is something take pride in. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p></div>
+                        <div class="bg-faded p-5 rounded"><p class="mb-0">A Fazenda Rotta combina o melhor da tecnologia moderna com as tradições centenárias da agricultura. Utilizamos drones para monitorar as plantações, sensores para otimizar o uso da água e softwares avançados para gestão agrícola. Ao mesmo tempo, valorizamos as técnicas tradicionais transmitidas de geração em geração. Saiba como esta combinação única nos permite produzir com eficiência e respeito à terra.</p></div>
                     </div>
                 </div>
             </div>

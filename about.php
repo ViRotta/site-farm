@@ -19,12 +19,8 @@
                                     <span class="section-heading-upper">Strong Generation, Strong Roots</span>
                                     <span class="section-heading-lower">Sobre nossa origem</span>
                                 </h2>
-                                <p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>
-                                <p class="mb-0">
-                                    We guarantee that you will fall in
-                                    <em>lust</em>
-                                    with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.
-                                </p>
+                                <p>Olimpio Rotta e Lucia Knebel Rotta, juntamente com seus quatro filhos, deixaram o Rio Grande do Sul em busca de prosperidade na região de Cabeceiras de Goiás. Com muita determinação e trabalho árduo, a família Rotta se estabeleceu na região, enfrentando desafios e aproveitando oportunidades. Graças ao seu empenho e amor pela terra, conseguiram transformar a Fazenda Rotta em um símbolo de sucesso e sustentabilidade. Hoje, colhem os frutos do seu trabalho, celebrando a tradição familiar e contribuindo para o desenvolvimento agrícola da região.</p>
+                                
                             </div>
                         </div>
                     </div>

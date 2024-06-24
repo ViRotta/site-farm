@@ -1,6 +1,7 @@
 <?php
 
-    include 'conexao.php';
+    include '../conexao.php';
+    
     $login = $_REQUEST['login'];
     $senha = md5($_REQUEST['senha']);
 
@@ -15,7 +16,7 @@
     $stmt->execute();
     $usuario = $stmt->fetch(PDO::FETCH_OBJ);
     
-    //var_dump($usuario);
+    var_dump($usuario);
     //exit;
 
     if($usuario != null) {
@@ -23,8 +24,8 @@
         $_SESSION['nome_usuario'] = $usuario->nome;
         $_SESSION['login_usuario'] = $usuario->login;
         $_SESSION['id_perfil'] = $usuario->id_perfil;
-        $_SESSION['descricao_peprfil'] = $usuario->descricao;
-        Header('Location: principal.php');
+        $_SESSION['descricao_perfil'] = $usuario->descricao;
+        Header('Location: safra/index.php');
      } else {
         Header('Location: login.php');
     }

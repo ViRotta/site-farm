@@ -28,13 +28,11 @@
                     <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/intro.jpg" alt="..." />
                     <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                         <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Fresh Coffee</span>
-                            <span class="section-heading-lower">Worth Drinking</span>
+                            <span class="section-heading-upper">Clima Perfeito para a Agricultura</span>
+                            <span class="section-heading-lower">CABECEIRAS DE GOIÁS</span>
                         </h2>
-                        <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!</p>
+                        <p class="mb-3">Cabeceiras de Goiás é abençoada com um clima ideal para a agricultura, com suas estações bem definidas e solo fértil. A região desfruta de verões quentes e chuvosos, perfeitos para o cultivo de diversas culturas, e invernos secos que facilitam a colheita. Essa combinação climática permite uma produção agrícola rica e diversificada, garantindo a qualidade dos produtos que chegam à sua mesa.</p>
                         
-                        <!-- BOTÃO COM O LINK PARA A PAGINA DE CLIMA DA REGIAO-->
-                         <!--ADICIONAR BOTOES EM OUTROS LUGARES (TERRA CONECTADA)-->
                         <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/2722/cabeceiras-go">Veja o Clima da Região!</a></div>
                     </div>
                 </div>
@@ -46,10 +44,10 @@
                     <div class="col-xl-9 mx-auto">
                         <div class="cta-inner bg-faded text-center rounded">
                             <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Our Promise</span>
-                                <span class="section-heading-lower">To You</span>
+                                <span class="section-heading-upper">Nossa Promessa</span>
+                                <span class="section-heading-lower">Para Você</span>
                             </h2>
-                            <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+                            <p class="mb-0">Na Fazenda Rotta, nossa promessa é entregar produtos de alta qualidade cultivados com respeito ao meio ambiente e às tradições agrícolas. Estamos comprometidos em utilizar práticas sustentáveis que preservam a saúde do solo e da água, garantindo que cada produto que chega até você seja seguro, saudável e delicioso. Nossa dedicação à excelência se reflete em cada etapa do processo, desde o plantio até a colheita. Confiamos que a nossa paixão pela agricultura resultará em uma experiência excepcional para você e sua família.</p>
                         </div>
                     </div>
                 </div>

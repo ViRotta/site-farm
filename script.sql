@@ -161,8 +161,9 @@ VALUES ('Rotta', 'rotta@gmail.com', MD5('rotta'),  1);
 
 -- Adicionando Sementes
 INSERT INTO `sementes` (`nome_semente`) VALUES 
-('Rajado'),
-('Agronorte');
+('Soja'),
+('Feijão')
+('Milho');
 
 -- Adicionando Adubo
 INSERT INTO `adubo` (`nome_adubo`) VALUES 
@@ -173,90 +174,28 @@ INSERT INTO `adubo` (`nome_adubo`) VALUES
 -- Adicionando Áreas
 INSERT INTO `areas` (`numero_area`, `nome_area`, `tamanho_area`) VALUES 
 (NULL, 'Chiru', 60),
-(NULL, 'Campo de Fota', 240);
+(NULL, 'Campo de Fota', 240)
+(NULL, 'Brandão', 180)
+(Null, Claudinha, 140);
 
 -- Adicionando Safra
 INSERT INTO `safras` (`nome_safra`, `periodo_safra`) VALUES 
-('Safra 22/23 - feijão', '22/23');
+('Safra 1', '22/23');
 
 -- Relacionar Sementes e Safras
 INSERT INTO `sementes_has_safras` (`sementes_id_sementes`, `safras_id_safras`) VALUES 
 ((SELECT `id_sementes` FROM `sementes` WHERE `nome_semente` = 'Rajado'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - feijão')),
-((SELECT `id_sementes` FROM `sementes` WHERE `nome_semente` = 'Agronorte'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - feijão'));
+ (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 1 '));
 
 -- Relacionar Adubo e Safra
 INSERT INTO `adubo_safra` (`adubo_id_adubo`, `safras_id_safras`, `qtd-adubo`) VALUES 
 ((SELECT `id_adubo` FROM `adubo` WHERE `nome_adubo` = '05 – 35 – 00'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - feijão'), 250),
-((SELECT `id_adubo` FROM `adubo` WHERE `nome_adubo` = 'Uréia'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - feijão'), 100),
-((SELECT `id_adubo` FROM `adubo` WHERE `nome_adubo` = 'Cloreto de Potassio'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - feijão'), 150);
+ (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 1'), 250);
 
 -- Relacionar Áreas e Safra
 INSERT INTO `areas_safra` (`areas_id_areas`, `safras_id_safras`) VALUES 
 ((SELECT `id_areas` FROM `areas` WHERE `nome_area` = 'Chiru'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - feijão')),
+ (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23')),
 ((SELECT `id_areas` FROM `areas` WHERE `nome_area` = 'Campo de Fota'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - feijão'));
+ (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23'));
 
-
--- -----------------------------------------------------
--- Safra Milho
--- -----------------------------------------------------
-
-USE `farm_bd`;
-
--- Inserir Sementes para Milho
-INSERT INTO `sementes` (`nome_semente`) VALUES 
-('P3808'),
-('P 3898'),
-('MG 393'),
-('P 3707');
-
--- Inserir Adubos para Milho
-INSERT INTO `adubo` (`nome_adubo`) VALUES 
-('05 – 35 – 00'),
-('Cloreto de Potássio'),
-('Uréia');
-
--- Inserir Áreas para Milho
-INSERT INTO `areas` (`numero_area`, `nome_area`, `tamanho_area`) VALUES 
-(NULL, 'Chiru / Campo de Fora', 300),
-(NULL, 'Brandao', 180),
-(NULL, 'Claudinha', 140);
-
--- Inserir Safra para Milho
-INSERT INTO `safras` (`nome_safra`, `periodo_safra`) VALUES 
-('Safra 22/23 - milho', '22/23');
-
--- Relacionar Sementes e Safras para Milho
-INSERT INTO `sementes_has_safras` (`sementes_id_sementes`, `safras_id_safras`) VALUES 
-((SELECT `id_sementes` FROM `sementes` WHERE `nome_semente` = 'P3808'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - milho')),
-((SELECT `id_sementes` FROM `sementes` WHERE `nome_semente` = 'P 3898'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - milho')),
-((SELECT `id_sementes` FROM `sementes` WHERE `nome_semente` = 'MG 393'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - milho')),
-((SELECT `id_sementes` FROM `sementes` WHERE `nome_semente` = 'P 3707'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - milho'));
-
--- Relacionar Adubo e Safra para Milho
-INSERT INTO `adubo_safra` (`adubo_id_adubo`, `safras_id_safras`, `qtd-adubo`) VALUES 
-((SELECT `id_adubo` FROM `adubo` WHERE `nome_adubo` = '05 – 35 – 00'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - milho'), 200),
-((SELECT `id_adubo` FROM `adubo` WHERE `nome_adubo` = 'Cloreto de Potássio'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - milho'), 100),
-((SELECT `id_adubo` FROM `adubo` WHERE `nome_adubo` = 'Uréia'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - milho'), 300);
-
--- Relacionar Áreas e Safra para Milho
-INSERT INTO `areas_safra` (`areas_id_areas`, `safras_id_safras`) VALUES 
-((SELECT `id_areas` FROM `areas` WHERE `nome_area` = 'Chiru / Campo de Fora'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - milho')),
-((SELECT `id_areas` FROM `areas` WHERE `nome_area` = 'Brandao'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - milho')),
-((SELECT `id_areas` FROM `areas` WHERE `nome_area` = 'Claudinha'), 
- (SELECT `id_safras` FROM `safras` WHERE `nome_safra` = 'Safra 22/23 - milho'));
